@@ -12,10 +12,10 @@ import List from "../../components/list"
 
         <div >
             <Home1 />
-         <Example></Example>
-         <List></List>
+         
+       
            <C></C>
-
+           <List></List>
             <PricingCart/>
         </div>
 )

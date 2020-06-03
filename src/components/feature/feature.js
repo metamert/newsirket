@@ -15,7 +15,7 @@ import {
   import "./.css"
 import bir from "../../assets/img/path5.png"
 import bir2 from "../../assets/img/chester-wade.jpg"
-import f from "../list"
+import F from "../bananas/index"
 
 const C=()=>{
 
@@ -70,32 +70,8 @@ return(
         <Col md="6">
           <div className="px-md-5">
             <hr className="line-success" />
-            <h1>Awesome features</h1>
-           
+          <F></F>
             
-            <ul className="list-unstyled mt-5">
-              <li className="py-2">
-                <div className="d-flex align-items-center">
-                  <div className="icon icon-success mb-2">
-                    <i className="tim-icons icon-vector" />
-                  </div>
-                  <div className="ml-3">
-                   
-                  </div>
-                </div>
-              </li>
-            
-              <li className="py-2">
-                <div className="d-flex align-items-center">
-                  <div className="icon icon-success mb-2">
-                    <i className="tim-icons icon-single-02" />
-                  </div>
-                  <div className="ml-3">
-
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </Col>
       </Row>
