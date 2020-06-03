@@ -1,0 +1,23 @@
+
+import './homepage.style.css'
+import Home2 from '../../components/homepagecomponent/home2/home2.component'
+import C from "../../components/feature/feature"
+import React from 'react'
+import Home1 from '../../components/homepagecomponent/home/home.component'
+import PricingCart from '../../components/PricingCart/pricingcart.component'
+import Deck from '../../components/WebsiteCart/websitecart.component'
+import {Example} from "../../components/animation/animation"
+import List from "../../components/list"
+ const Homepage = () => ( 
+
+        <div >
+            <Home1 />
+         <Example></Example>
+         <List></List>
+           <C></C>
+
+            <PricingCart/>
+        </div>
+)
+
+export default Homepage;
